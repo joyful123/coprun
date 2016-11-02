@@ -1,3 +1,4 @@
 Debug.win32
 /cpp-template-default/proj.win32/*.opensdf
 /cpp-template-default/proj.win32/HelloCpp.sdf
+/cpp-template-default/proj.win32/*.suo
