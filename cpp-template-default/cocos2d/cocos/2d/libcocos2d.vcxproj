@@ -1392,12 +1392,6 @@ xcopy /Y /Q "$(ProjectDir)..\..\external\chipmunk\prebuilt\win32\release-lib\*.*
     <ProjectReference Include="..\..\external\bullet\proj.win32\libbullet.vcxproj">
       <Project>{012dff48-a13f-4f52-b07b-f8b9d21ce95b}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\external\recast\proj.win32\librecast.vcxproj">
-      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\editor-support\spine\proj.win32\libSpine.vcxproj">
-      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
